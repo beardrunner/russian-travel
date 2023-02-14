@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествие по России</title>
 </head>
 <body>
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/header-logo.svg" alt="Логотип">
-            <a class="header__lang-link" href="#">Ru</a>
-            <a class="header__lang-link" href="#">En</a>
+            <div class="header__lang-links">
+                <a class="header__lang-link" href="#">Ru</a>
+                <a class="header__lang-link" href="#">En</a>
+            </div>
         </header>
         <main>
             <section class="lead">
                 <h1 class="lead__title">Путешествия по&nbsp;России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <img src="./images/lead-polka.jpg" alt="Карта железного маршрута, на фоне вагона поезда в котором на нижней полке лежит женщина">
+                <img src="./images/lead-polka.jpg" alt="Карта железного маршрута, на фоне вагона поезда в котором на нижней полке лежит женщина" class="lead__image">
                 <p class="lead__caption">ваша полка — верхняя</p>
             </section>
             <section class="intro">
@@ -31,7 +33,7 @@
                     <li>Аэропортов 241</li>
                 </ul>
             </section>
-            <section>
+            <section class="photo-grid">
                 <img src="./images/photo-grid-train.jpg" alt="Пейзаж за окном вагона" class="photo-grid__item">
                 <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Заснеженные горы" class="photo-grid__item">
                 <img src="./images/photo-grid-tuman.jpg" alt="Туманное поле" class="photo-grid__item">
