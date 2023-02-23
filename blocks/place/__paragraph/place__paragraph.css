@@ -30,9 +30,8 @@
     .place__paragraph {
         max-width: 484px;
         width: 100%;
-        margin: 0 auto 26px auto;
-        padding-left: 16px;
-        padding-right: 16px;
         align-self: center;
+        margin: 0 auto 26px auto;
+        padding: 0 16px
     }
 }
